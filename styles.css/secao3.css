@@ -1,0 +1,40 @@
+h2,h3,p{
+    font-family: 'Inter',sans-serif;
+}
+.secao3{
+    padding: 4em 12em;
+    opacity: 0;
+    transform: translateX(-30px);
+    animation: fadeInRight 2s ease forwards; /* Aplica a animação */
+    animation-delay: 2s;
+}
+.secao3__texto{
+    margin: auto;
+    background-color: rgb(250, 247, 247);
+    border-radius: 15px;
+    text-align: center;
+    padding: 0.5em 1.8em 1em 1.8em;
+}
+.secao3__texto__subtitulo{
+    font-size: 1em;
+    color: brown;
+    font-weight: 600;
+    margin-top: 1em;
+}
+.secao3__texto__titulo{
+    font-weight: 500;
+    font-size: 3em;
+    margin: 0;
+    margin-top: 0.5em;
+}
+.secao3__texto__textoavatar{
+    font-weight: 500;
+    margin: 0;
+    margin-top: 1em;
+}
+.secao3__texto__texto{
+    color: gray;
+    font-size: 1em;
+    margin: 0;
+    margin-top: 1em;
+}

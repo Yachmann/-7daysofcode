@@ -1,0 +1,101 @@
+
+.secao2__parte2__container{
+    border: 0.5px solid lightgray;
+    border-radius: 8px;
+}
+h3,p{
+    font-family: 'Inter',sans-serif;
+}
+.secao2__parte1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.7em;
+    opacity: 0;
+    transform: translateX(-30px);
+    animation: fadeInRight 2s ease forwards; /* Aplica a animação */
+    animation-delay: 1s;
+}
+.secao2__parte1__subtitulo{
+    text-align: center;
+    margin: 0;
+    font-size: 1em;
+    font-weight: 200;
+    color: brown;
+    background-color: rgb(250, 244, 244);
+    padding: 0.3em;
+    border-radius: 15px;
+}
+.secao2__parte1__titulo{
+    text-align: center;
+    margin: 0;
+    font-weight: 600;
+    font-size: 3em;
+}
+.secao2__parte1__texto{
+    text-align: center;
+    margin: 0;
+    font-size: 1.2em;
+    color: gray;
+    margin-bottom: 1em;
+    
+}
+.secao2__parte1 img{
+    width: 85%;
+    margin-bottom: 1.4em;
+    animation: fadeInRight 2s ease forwards; /* Aplica a animação */
+    animation-delay: 1s;
+}
+.secao2__parte2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transform: translateX(-30px);
+    animation: fadeInRight 2s ease forwards; /* Aplica a animação */
+    animation-delay: 1.5s;
+    
+}
+.secao2__parte2__container{
+    margin: 0.3em;
+    text-align: start;
+    width: 45%;
+    padding: 1.7em ;
+    display: flex;
+    flex-direction: column;
+    gap:1.5em;
+    transition: 0.3s ease-in-out;
+}
+.secao2__parte2__container:hover{
+    transform: scale(1.1);
+    
+}
+
+.secao2__parte2__titulo{
+    width: 45%;
+    margin: 0;
+    font-size: 1.2em;
+    font-weight: 500;
+    text-align: start;
+    margin: 0.3em 0;
+    padding-right: 3em;
+}
+.container__titulo{
+    margin: 0;
+    font-size: 1em;
+    text-align: start;
+    font-weight: 500;
+
+}
+.container__texto{
+    margin: 0;
+    font-size: 1em;
+    text-align: start;
+    color: gray;
+}
+.container__texto__texto{
+    display: flex;
+    gap: 1em;
+}
